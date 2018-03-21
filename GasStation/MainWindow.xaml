@@ -1,0 +1,20 @@
+﻿<Window x:Class="GasStation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GasStation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="16,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Fuel:" RenderTransformOrigin="-0.897,0.773"/>
+        <ComboBox Name="FuelBox" HorizontalAlignment="Left" Margin="185,67,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="382,67,0,0" TextWrapping="Wrap" Text="Food:" VerticalAlignment="Top" RenderTransformOrigin="-1.054,0.507"/>
+        <ComboBox Name="FoodBox" HorizontalAlignment="Left" Margin="501,67,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="3.008,-3.312"/>
+        <TextBlock HorizontalAlignment="Left" Margin="16,110,0,0" TextWrapping="Wrap" Text="Count Of Litres:" VerticalAlignment="Top" RenderTransformOrigin="0.735,0.419"/>
+        <TextBox Name="AmmoutLiter" HorizontalAlignment="Left" Height="24" Margin="185,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.687,0.594"/>
+        <TextBlock HorizontalAlignment="Left" Margin="382,110,0,0" TextWrapping="Wrap" Text="Ammout Peaces:" VerticalAlignment="Top" RenderTransformOrigin="0.189,0.545"/>
+        <TextBox Name="AmmoutFood" HorizontalAlignment="Left" Height="23" Margin="501,103,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button Name="OrderButton" Content="Checkout" HorizontalAlignment="Left" Margin="243,250,0,0" VerticalAlignment="Top" Width="217" Click="orderButtonClick" RenderTransformOrigin="0.287,-0.024" Height="36"/>
+    </Grid>
+</Window>
